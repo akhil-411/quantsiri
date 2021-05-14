@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2018, 4:16:38 PM
+    Author     : hari
+*/
+.root {
+    -fx-background-color:#f5f5f5;
+    -fx-border-color: #263e48;
+    -fx-border-width: 5px;
+    -fx-border-radius: 1.0px;
+    -fx-font-family: Calibri;
+    -fx-font-size: 16px;
+
+}
+.pane {
+    -fx-background-color:#f5f5f5;
+    -fx-font-family: Calibri;
+    -fx-font-size: 16px;
+
+}
+.root_parent {
+    -fx-background-color:#f5f5f5;
+    -fx-border-color: #263e48;
+    -fx-border-width: 5px;
+    -fx-border-radius: 1.0px;
+    
+
+}
+
+#txtModelName{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+#txtStart{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+#txtEnd{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+#txtfrequency{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+#txtComboFrequency{
+    -fx-border-color: black ;
+    -fx-focus-color: #03aced ;
+    -fx-border-radius:5;
+}
+#txtModelTime{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+#txtComboModelTime{
+    -fx-border-color: black ;
+    -fx-focus-color: #03aced ;
+    -fx-border-radius:5;
+}#txtModelProcedure{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+
+#fxStart{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+#fxEnd{
+    -fx-text-box-border: black ;
+    -fx-focus-color: #03aced ;
+}
+
+#txtsave{
+    -fx-background-color:#03aced;
+    -fx-font-family: Open Sans;
+    -fx-font-size: 16px;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+#txtCancel{  
+    -fx-background-color:#03aced;
+    -fx-font-family: Open Sans;
+    -fx-font-size: 16px;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+#fxCancel{
+    -fx-background-color:#03aced;
+    -fx-font-family: Open Sans;
+    -fx-font-size: 16px;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+#fxSave{
+    -fx-background-color:#03aced;
+    -fx-font-family: Open Sans;
+    -fx-font-size: 16px;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+#fxStySave{
+    -fx-background-color:#03aced;
+    -fx-font-family: Open Sans;
+    -fx-font-size: 16px;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+#fxStyCancel{  
+    -fx-background-color:#03aced;
+    -fx-font-family: Open Sans;
+    -fx-font-size: 16px;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+#anchor_1{
+    -fx-background-color:#f5f5f5;
+    -fx-border-color: #263e48;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10.0px;
+    -fx-font-family: Calibri;
+    -fx-font-size: 16px;
+}
+#fxAncharPane2{
+    -fx-background-color:#f5f5f5;
+    -fx-border-color: #263e48;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10.0px;
+    -fx-font-family: Calibri;
+    -fx-font-size: 16px;
+    
+}
+
+#fxAncharPane3{
+    -fx-background-color:#f5f5f5;
+    -fx-border-color: #263e48;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10.0px;
+    -fx-font-family: Calibri;
+    -fx-font-size: 16px;
+    
+}
+#fxAncharPane4{
+    -fx-background-color:#f5f5f5;
+    -fx-border-color: #263e48;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10.0px;
+    -fx-font-family: Calibri;
+    -fx-font-size: 16px;
+   
+}
+#fxAncharPane5{
+    -fx-background-color:#f5f5f5;
+    -fx-border-color: #263e48;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10.0px;
+    -fx-font-family: Calibri;
+    -fx-font-size: 16px;
+    
+}
+#fxMSubmit{
+    -fx-background-color:#03aced;
+    -fx-font-family: Open Sans;
+    -fx-font-size: 16px;
+    -fx-line-height: 1.5;
+    -fx-text-fill:white;
+}
+
+
+/*.combo-box-base {
+    -fx-border-color: #000;
+    -fx-border-radius: 5px;
+}*/
+
+
+

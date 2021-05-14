@@ -1,6 +1,13 @@
 <mat-toolbar>
-  <span>QUANTSIRI</span>
+  <span style="color: #03aced;">QUANT<span style="color: #1e9540;">SIRI</span></span>
   <span class="toolbar-spacer"></span>
+
+
+  <button mat-raised-button style="background: #1e9540;">Preferences</button>
+
+  <a mat-button href="#">Logout</a>
+
+
 
   <input id="darkMode" type="checkbox" [checked]="darkMode$ | async" (change)="onToggle()" class="darkmode-toggle" />
   <label class="darkmode-toggle-label" for="darkMode">
