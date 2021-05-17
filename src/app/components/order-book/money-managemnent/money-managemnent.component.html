@@ -1,1 +1,65 @@
-<p>money-managemnent works!</p>
+<div class="row pb-2">
+    <div class="col-11">Money Managemnent</div>
+    <div class="col-1 text-right">
+        <i class="far fa-arrow-alt-circle-right"></i>
+    </div>
+</div>
+
+<!-- moneyManagement_array -->
+
+<div class="row mx-3 py-1" *ngFor="let mm of moneyManagement_array;">
+    <div class="col-6 mm-key-bg">{{mm.key}}</div>
+    <div class="col-6 mm-value-bg">
+        <input type="text" class="mm-input-bg" [(ngModel)]="mm.value">
+    </div>
+</div>
+
+<div class="row mx-3 py-1">
+    <div class="col-6 mm-key-bg">Stats: Count, Time, Profit</div>
+    <div class="col-6 mm-value-bg">
+        <div class="row">
+            <div class="col-4" style="padding-right: 0px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+            <div class="col-4" style="padding-right: 2px !important;padding-left: 2px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+            <div class="col-4" style="padding-left: 0px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mx-3 py-1">
+    <div class="col-6 mm-key-bg">Avg Win Stats</div>
+    <div class="col-6 mm-value-bg">
+        <div class="row">
+            <div class="col-4" style="padding-right: 0px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+            <div class="col-4" style="padding-right: 2px !important;padding-left: 2px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+            <div class="col-4" style="padding-left: 0px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mx-3 py-1">
+    <div class="col-6 mm-key-bg">Avg Loss Stats</div>
+    <div class="col-6 mm-value-bg">
+        <div class="row">
+            <div class="col-4" style="padding-right: 0px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+            <div class="col-4" style="padding-right: 2px !important;padding-left: 2px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+            <div class="col-4" style="padding-left: 0px !important;">
+                <input type="text" class="mm-input-bg">
+            </div>
+        </div>
+    </div>
+</div>

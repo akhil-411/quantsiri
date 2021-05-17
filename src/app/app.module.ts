@@ -18,6 +18,7 @@ import { OrderWindowComponent } from './components/manual-order/order-window/ord
 import { MarketWatchComponent } from './components/manual-order/market-watch/market-watch.component';
 import { TradeJournalComponent } from './components/manual-order/trade-journal/trade-journal.component';
 import { OpenPositionsComponent } from './components/manual-order/open-positions/open-positions.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,9 @@ import { OpenPositionsComponent } from './components/manual-order/open-positions
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

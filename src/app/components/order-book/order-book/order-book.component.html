@@ -1,1 +1,35 @@
-<p>order-book works!</p>
+<!-- <p style="text-transform: uppercase;">order book</p>
+<i class="fas fa-sign-out-alt"></i>
+<div>
+    <p class="text-left">Left aligned.</p>
+    <p class="text-right">ll.</p>
+</div> -->
+
+<div class="row pb-2">
+    <div class="col-11">ORDER BOOK</div>
+    <div class="col-1 text-right">
+        <i class="far fa-arrow-alt-circle-right"></i>
+    </div>
+</div>
+
+
+<div class="mx-3" style="text-align: center;">
+    <div class="row">
+        <div class="col-3">Assest Class</div>
+        <div class="col-3">Current Pnl</div>
+        <div class="col-3">MFE</div>
+        <div class="col-3">MAE</div>
+    </div>
+    <div class="row py-1" *ngFor="let order of orderBook_array;">
+        <div class="col-3">{{order.assest}}</div>
+        <div class="col-3">
+            <input type="text" class="ob-input-bg" [(ngModel)]="order.pnl">
+        </div>
+        <div class="col-3">
+            <input type="text" class="ob-input-bg" [(ngModel)]="order.mfe">
+        </div>
+        <div class="col-3">
+            <input type="text" class="ob-input-bg" [(ngModel)]="order.mae">
+        </div>
+    </div>
+</div>
